@@ -1,0 +1,124 @@
+body {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    background-color: #a2de96;
+    overflow: hidden;
+}
+h1 {
+    font-size: 4rem;
+    color: #3ca59d;
+    padding: 2% 0;
+}
+
+/*Piano Body*/
+#piano {
+    height: 18rem;
+    width: 60rem;
+    /* background: rgba(0.7,0.7,0.7,0.2); */
+    /* border-radius: 5px; */
+    /* box-shadow: 1px 4px 20px rgb(168, 167, 167); */
+    margin: 2% 20%;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.p-key {
+    display: inline-block;
+    height: 100%;
+    width: 7rem;
+    font-size: 1.5rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #fff;
+    color: #5a3d55;
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+.sharp-notes {
+    height: 12rem;
+    width: 55rem; 
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 13.4rem;
+    left: 18.5rem;   
+}
+.pu-key {
+    display: inline-block;
+    /* left: 1rem; */
+    margin: 2rem;
+    height: 10rem;
+    width: 5rem;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #5a3d55;
+    color: #fff;
+}
+.d-s {
+    position: relative;
+    right: 1.5rem;
+}
+.f-s {
+    position: relative;
+    left: 3.2rem;
+}
+ .g-s {
+    position: relative;
+    left: 1.4rem;
+}
+.a-s {
+    position: relative;
+    right: 1rem;
+}
+.char-key-sharp, .char-key-flat {
+    text-align: center;
+    padding: 0 12%;
+    height: 1.7rem;
+    width: 60rem;
+    font-size: 1.5rem;
+}
+.char-key-flat {
+    margin-left: 8rem;
+    position: relative;
+    bottom: 1.5rem;
+}
+.left {
+    float: left;
+    padding: 0;
+    margin:0 0 0 9rem;
+
+    width: 20rem;
+}
+.right {
+    float: left;
+    padding: 0;
+    margin: 0 0 0 4rem;
+    width: 25rem;
+}
+.charac {
+    padding: 0 2.5rem;
+    line-height: 0.5;
+    font-size: 1.5rem;
+}
+.up {
+    background-color: #5a3d5598;
+    color: #fff ;
+    margin-right: 0.8rem;
+}
+.lw {
+    background-color: rgba(255, 255, 255,0.5);
+    color: #5a3d55;
+    margin-right: 0.8rem;
+}
+#copyright {
+    margin-top: 1.8rem;
+    font-size: 0.8rem;
+}
+.profile {
+    text-decoration: none;
+}
+.pressed {
+    box-shadow: 0 3px 4px 0 #e79b2aa8;
+    opacity: 0.4;
+}
